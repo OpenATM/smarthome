@@ -1,0 +1,41 @@
+
+<script>
+  function removeTableRow(trId){
+    $(document.getElementById(trId)).remove();
+
+  }
+  function rmlog(btn, row){
+    select_row =  btn.parent('td').parent('tr');
+    $.ajax({
+      url: "ajax_result",
+      data:{id:'0'},
+      cache: false,
+      success: function(res){
+        if (res.success)
+          select_row.remove()
+        else
+          alert("failed to delete!")
+      }
+    });
+  }
+  $(document).ready(function () {
+    var ajax_request = document.getElementById("ajax_id");
+    ajax_request.onclick = function(args, sed) {
+      alert(args + "sed"+ sed)
+    }
+  });    
+</script>
+
+<h1>ajax request test</h1>
+<input id="ajax_id" name="ajax_id" type="submit" value = "test ajax"/>
+<div id ="insert_value">hello</div>
+
+<table border="1">
+  <%for i in 0..2  %>
+    <tr>
+      <td>1-1</td>
+      <td>1-2</td>
+      <td><button type="button" onclick="rmlog($(this),<%=i%>)">clear</button></td>
+    </tr>
+  <%end%>
+</table>

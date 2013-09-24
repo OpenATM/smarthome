@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/33/trunk/mysys/app/views/ajax
+END
+test.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/29/trunk/mysys/app/views/ajax/test.html
+END
+ajax_result.html.erb.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/29/trunk/mysys/app/views/ajax/ajax_result.html.erb.erb
+END
+ajax_test.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/32/trunk/mysys/app/views/ajax/ajax_test.html.erb
+END
+ajax_test.html_1.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/33/trunk/mysys/app/views/ajax/ajax_test.html_1.erb
+END
+ajax_test.html_2.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/33/trunk/mysys/app/views/ajax/ajax_test.html_2.erb
+END

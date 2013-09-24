@@ -1,0 +1,3 @@
+<h1>Learn rails</h1>
+<p>Add a controller first!</p>
+<%= link_to "My Blog", posts_path %>

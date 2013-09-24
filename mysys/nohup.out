@@ -1,0 +1,501 @@
+/home/mika/software/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+[2013-05-22 10:53:56] INFO  WEBrick 1.3.1
+[2013-05-22 10:53:56] INFO  ruby 1.9.3 (2011-10-30) [x86_64-linux]
+[2013-05-22 10:53:56] INFO  WEBrick::HTTPServer#start: pid=7845 port=3000
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:54:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 10:55:40] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+=> Booting WEBrick
+=> Rails 3.2.9 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+*******************************routes file is exe********************************
+
+
+Started GET "/posts" for 10.121.122.233 at 2013-05-22 10:54:33 +0800
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+  Rendered posts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 77ms (Views: 37.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/login.css?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ajax_test.js?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /ajax_test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/login.js?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /login.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.121.122.233 at 2013-05-22 10:54:34 +0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/login" for 10.121.122.233 at 2013-05-22 10:54:40 +0800
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/mika/software/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/mika/software/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/mika/software/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/mika/software/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/index" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/login.css?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax_test.js?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /ajax_test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/login.js?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 10.121.122.233 at 2013-05-22 10:55:40 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/ajax_test" for 10.121.122.233 at 2013-05-22 10:55:57 +0800
+
+ActionController::RoutingError (No route matches [GET] "/ajax_test"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/mika/software/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/mika/software/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/mika/software/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/mika/software/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+*******************************routes file is exe********************************
+
+
+Started GET "/" for 10.121.122.233 at 2013-05-22 12:25:01 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.121.122.233 at 2013-05-22 12:25:01 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/login.css?body=1" for 10.121.122.233 at 2013-05-22 12:25:01 +0800
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 10.121.122.233 at 2013-05-22 12:25:01 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+[2013-05-22 12:25:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:02] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:02] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:02] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:02] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:02] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-22 12:25:02] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:35] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:35] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:35] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:35] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:35] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-05-24 10:40:35] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/posts.css?body=1" for 10.121.122.233 at 2013-05-22 12:25:01 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.121.122.233 at 2013-05-22 12:25:01 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.121.122.233 at 2013-05-22 12:25:01 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.121.122.233 at 2013-05-22 12:25:02 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax_test.js?body=1" for 10.121.122.233 at 2013-05-22 12:25:02 +0800
+Served asset /ajax_test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 10.121.122.233 at 2013-05-22 12:25:02 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/login.js?body=1" for 10.121.122.233 at 2013-05-22 12:25:02 +0800
+Served asset /login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 10.121.122.233 at 2013-05-22 12:25:02 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.121.122.233 at 2013-05-22 12:25:02 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 10.121.122.231 at 2013-05-24 10:39:11 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 128ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.121.122.231 at 2013-05-24 10:39:13 +0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.121.122.231 at 2013-05-24 10:39:13 +0800
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.121.122.231 at 2013-05-24 10:39:13 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.121.122.231 at 2013-05-24 10:39:13 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 10.121.122.231 at 2013-05-24 10:39:13 +0800
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/login.css?body=1" for 10.121.122.231 at 2013-05-24 10:39:13 +0800
+Served asset /login.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.121.122.231 at 2013-05-24 10:39:14 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/ajax_test.js?body=1" for 10.121.122.231 at 2013-05-24 10:39:14 +0800
+Served asset /ajax_test.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 10.121.122.231 at 2013-05-24 10:39:14 +0800
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/login.js?body=1" for 10.121.122.231 at 2013-05-24 10:39:14 +0800
+Served asset /login.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 10.121.122.231 at 2013-05-24 10:39:14 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.121.122.231 at 2013-05-24 10:39:14 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/" for 10.121.122.231 at 2013-05-24 10:40:33 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.121.122.231 at 2013-05-24 10:40:34 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 10.121.122.231 at 2013-05-24 10:40:34 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.121.122.231 at 2013-05-24 10:40:34 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.121.122.231 at 2013-05-24 10:40:34 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.121.122.231 at 2013-05-24 10:40:34 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/login.css?body=1" for 10.121.122.231 at 2013-05-24 10:40:34 +0800
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.121.122.231 at 2013-05-24 10:40:35 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax_test.js?body=1" for 10.121.122.231 at 2013-05-24 10:40:35 +0800
+Served asset /ajax_test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 10.121.122.231 at 2013-05-24 10:40:35 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/login.js?body=1" for 10.121.122.231 at 2013-05-24 10:40:35 +0800
+Served asset /login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 10.121.122.231 at 2013-05-24 10:40:35 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.121.122.231 at 2013-05-24 10:40:35 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-01 20:38:44 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 576ms (Views: 555.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:47 +0800
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:47 +0800
+Served asset /home.css - 200 OK (32ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /login.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/ajax_test.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /ajax_test.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /login.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:48 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-01 20:38:50 +0800
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (54.6ms)[0m  SELECT `posts`.* FROM `posts` 
+  [1m[36mEXPLAIN (0.3ms)[0m  [1mEXPLAIN SELECT `posts`.* FROM `posts` [0m
+EXPLAIN for: SELECT `posts`.* FROM `posts` 
++----+-------------+-------+------+---------------+------+---------+------+------+-------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra |
++----+-------------+-------+------+---------------+------+---------+------+------+-------+
+|  1 | SIMPLE      | posts | ALL  | NULL          | NULL | NULL    | NULL |    1 |       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------+
+1 row in set (0.00 sec)
+
+  Rendered posts/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 796ms (Views: 43.1ms | ActiveRecord: 641.7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:52 +0800
+Served asset /home.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:52 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-01 20:38:52 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-01 20:38:52 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:52] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-01 20:38:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true

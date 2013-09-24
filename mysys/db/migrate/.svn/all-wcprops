@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/29/trunk/mysys/db/migrate
+END
+20130126092541_create_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/29/trunk/mysys/db/migrate/20130126092541_create_posts.rb
+END
+20130309133057_create_tags.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/29/trunk/mysys/db/migrate/20130309133057_create_tags.rb
+END
+20130107140837_create_tags.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/29/trunk/mysys/db/migrate/20130107140837_create_tags.rb
+END
+20130224133208_create_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/29/trunk/mysys/db/migrate/20130224133208_create_comments.rb
+END

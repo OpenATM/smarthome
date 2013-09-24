@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/33/trunk/mysys
+END
+Gemfile.lock
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/27/trunk/mysys/Gemfile.lock
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/14/trunk/mysys/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/14/trunk/mysys/README.rdoc
+END
+mysys.log
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/27/trunk/mysys/mysys.log
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/27/trunk/mysys/Gemfile
+END
+config.ru
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/24/trunk/mysys/config.ru
+END

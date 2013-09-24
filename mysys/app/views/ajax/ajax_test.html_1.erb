@@ -1,0 +1,59 @@
+
+<script>
+  /*
+  window.onload = function(){ //Wait for the page to load.
+    var ajax_request = document.getElementById("ajax_id");
+    ajax_request.onclick = function() {
+      //document.write("<h2>this is html test</h2>")
+      var mydiv = document.getElementById("insert_value");
+      mydiv.innerHTML = mydiv.innerHTML + "word"
+      alert("xxx")
+      $.ajax({
+        url: "test.html",
+        cache: false,
+        success: function(html){
+          $("#results").append(html);
+        }
+      });
+    }
+  // alert(x)
+    };
+
+   */
+  function removeTableRow(trId){
+    //$('#' + trId).remove();
+    $(document.getElementById(trId)).remove();
+   }
+  $(document).ready(function () {
+    // $("table#configure_url input").click(function() {
+    var ajax_request = document.getElementById("ajax_id");
+    ajax_request.onclick = function(args, sed) {
+      alert(args + "sed"+ sed)
+      $.ajax({
+        url: "ajax_result",
+        data:{id:'1'},
+        cache: false,
+        success: function(html){
+          alert(html[0]["username"])
+          removeTableRow("id_1")
+        //  $("div#insert_value").append(html);
+          
+        }
+      });    
+    }
+  });    
+</script>
+
+<h1>ajax request test</h1>
+<input id="ajax_id" name="ajax_id" type="submit" value = "test ajax"/>
+<div id ="insert_value">hello</div>
+<table border="1">
+  <tr>
+    <td>1-1</td>
+    <td>1-2</td>
+  </tr>
+  <tr id="id_1">
+    <td>2-1</td>
+    <td>2-2</td>
+  </tr>
+</table>

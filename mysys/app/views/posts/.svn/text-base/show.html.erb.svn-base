@@ -1,0 +1,54 @@
+<p id="notice"><%= notice%>  </p>
+
+<p>
+  <b>Name:</b>
+  <%= @post.name %>
+</p>
+
+<p>
+  <b>Title</b>
+  <%=@post.title %>
+</p>
+<p>
+  <b>Content:</b>
+  <%= @post.content%>
+</p>
+
+<h2>Comments</h2>
+<% @post.comments.each do |comment|%>
+   <p>
+     <b>Commenter:</b>
+     <%= comment.commenter%>
+   </p>
+   <p>
+     <b>Comment:</b>
+     <%= comment.body%>
+   </p>
+   <p>
+     <%= link_to "Destory Comment", [comment.post, comment], 
+        :confirm => "Are you sure?",
+        :method => :delete
+      %>
+   </p>
+<%end%>
+
+<h2>Add a comment</h2>
+<!--
+<%= form_for([@post, @post.comments.build]) do |f|%>
+   <div class="filed">
+   	 <%= f.label :commenter %></br>
+   	 <%= f.text_field :commenter %></br>
+   </div>
+   <div class="filed">
+   	 <%= f.label :body %></br>
+   	 <%= f.text_area :body %></br>
+   </div>
+   <div class="actions">
+   	 <%= f.submit %></br>
+   </div>
+<%end%>
+-->
+<%= render "comments/form" %>
+
+<%= link_to 'Edit',edit_post_path(@post)  %>
+<%= link_to 'Back',posts_path %>
